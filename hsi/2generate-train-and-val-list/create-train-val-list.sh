@@ -23,7 +23,7 @@ do
 		for ff in `ls samples/pixel5x5-cls${labelid}-*-0.bin | sort -R` 
 		do
 			#for different number of train samples
-			for ((train_num=3; train_num<=15; train_num++))
+			for ((train_num=3; train_num<=3; train_num++))
 			do
 				#write file names to the training sample list
 				if [ $count -lt $train_num ]
