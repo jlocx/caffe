@@ -10,7 +10,7 @@
 
 #randomize 10 times
 for ((randid=1; randid<=10; randid++))
-
+do
 	#for each class
 	for ((labelid=1; labelid<=9; labelid++))
 	do
